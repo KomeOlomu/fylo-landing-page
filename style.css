@@ -6,5 +6,64 @@
   --Light-Grayish-Blue: hsl(240, 75%, 98%);
   --Light-Gray: hsl(0, 0%, 75%);
   --heading-font-family: "Raleway", sans-serif;
-  --deafault-font-family: "Open Sans", sans-serif;
+  --default-font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 40px 20px;
+  padding: 0 80px;
+  font-family: var(--default-font-family);
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 36px;
+}
+.content {
+  margin-top: 20px;
+  padding: 0 50px;
+}
+.details {
+  margin: 90px 0;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.4;
+}
+.hero-img {
+  width: 900px;
+  height: 400px;
+  margin: 0 20px;
+}
+.get-started {
+  display: flex;
+}
+::placeholder {
+  font-size: 13px;
+  opacity: 0.6;
+  font-family: var(--heading-font-family);
+}
+input {
+  width: 380px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  width: 180px;
+  height: 50px;
+  margin: 0 10px;
+  padding: 0 20px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 14px;
 }
