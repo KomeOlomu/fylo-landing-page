@@ -84,7 +84,7 @@ input {
 }
 
 .content-img {
-  width: 800px;
+  width: 900px;
   height: 400px;
   margin: 160px 100px;
 }
@@ -94,12 +94,10 @@ input {
 }
 
 .content-section {
-  max-width: 100%;
-  width: 1200px;
   background-color: var(--Light-Grayish-Blue);
   margin-top: 90px;
   margin: 30px;
-  padding: 70px 50px;
+  padding: 90px 50px;
 }
 
 .product-details h1 {
@@ -152,4 +150,33 @@ input {
 
 .fylo-review p {
   margin-left: 10px;
+}
+
+.sign-up {
+  background-color: var(--Desaturated-Blue);
+  color: white;
+  padding: 80px;
+}
+
+.sign-up h2 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.sign-up p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.sign-up input {
+  width: 500px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.sign-up .btn-primary {
+  width: 250px;
+  height: 50px;
+  margin: 10px 0;
 }
