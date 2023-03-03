@@ -10,9 +10,13 @@
 }
 
 body {
-  margin: 40px 20px;
+  margin: 0;
   padding: 0 80px;
   font-family: var(--default-font-family);
+}
+
+.container {
+  margin: 40px 20px;
 }
 
 li {
@@ -66,4 +70,86 @@ input {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 14px;
+}
+
+.fylo-link a {
+  color: var(--Moderate-Cyan);
+  margin-top: 20px;
+  font-size: 17.5px;
+}
+
+.arrow-icon {
+  margin-bottom: 10px;
+  height: 18px;
+}
+
+.content-img {
+  width: 800px;
+  height: 400px;
+  margin: 160px 100px;
+}
+
+.product-details {
+  margin: 90px 0;
+}
+
+.content-section {
+  max-width: 100%;
+  width: 1200px;
+  background-color: var(--Light-Grayish-Blue);
+  margin-top: 90px;
+  margin: 30px;
+  padding: 70px 50px;
+}
+
+.product-details h1 {
+  font-size: 32px;
+}
+
+.fylo-review {
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fylo-review p {
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.icon-quote {
+  margin-left: 15px;
+}
+
+.fylo-founder img {
+  border-radius: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.fylo-founder {
+  display: flex;
+}
+
+.fylo-founder h4 {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fylo-review h4 {
+  margin-left: 10px;
+}
+
+.founder-title {
+  margin-left: 10px;
+  margin-top: -8px;
+  font-size: 12px;
+}
+
+.fylo-review p {
+  margin-left: 10px;
 }
