@@ -200,7 +200,7 @@ input {
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0px 20px;
   color: white;
   border: 1px solid white;
   border-radius: 50%;
@@ -211,4 +211,19 @@ footer .social-links a {
   justify-content: center;
   text-decoration: none;
   padding: 10px 15px;
+}
+
+.contact-phone,
+.contact-email {
+  display: flex;
+}
+
+.icon-phone {
+  margin-top: 23px;
+  height: 20px;
+}
+
+.icon-email {
+  width: 20px;
+  height: 15px;
 }
