@@ -13,10 +13,12 @@ body {
   margin: 0;
   padding: 0 80px;
   font-family: var(--default-font-family);
+  max-width: 100%;
 }
 
 .container {
-  margin: 40px 20px;
+  margin: 0px auto;
+  padding: 30px;
 }
 
 li {
@@ -43,6 +45,7 @@ p {
   font-size: 17px;
   line-height: 1.4;
 }
+
 .hero-img {
   width: 900px;
   height: 400px;
@@ -95,8 +98,7 @@ input {
 
 .content-section {
   background-color: var(--Light-Grayish-Blue);
-  margin-top: 90px;
-  margin: 30px;
+  margin-top: 100px;
   padding: 90px 50px;
 }
 
@@ -179,4 +181,34 @@ input {
   width: 250px;
   height: 50px;
   margin: 10px 0;
+}
+
+.contact-section li {
+  display: list-item;
+  margin: 20px;
+  font-size: 17px;
+}
+
+.contact-section {
+  background-color: var(--Very-Dark-Blue);
+  color: white;
+  padding: 80px;
+}
+
+.contact-section img {
+  color: white;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 15px;
 }
