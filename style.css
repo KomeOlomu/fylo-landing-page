@@ -238,7 +238,7 @@ footer .social-links a {
   height: 15px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 1440px) {
+@media screen and (min-width: 360px) and (max-width: 1200px) {
   html,
   body {
     margin-top: 20px;
