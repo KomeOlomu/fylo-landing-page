@@ -237,3 +237,155 @@ footer .social-links a {
   width: 20px;
   height: 15px;
 }
+
+@media screen and (min-width: 360px) and (max-width: 1440px) {
+  html,
+  body {
+    margin-top: 20px;
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+
+  .container {
+    padding: 0px;
+    margin: 0px;
+  }
+  .fylo-logo {
+    margin-left: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 12px;
+    margin: 1px 15px;
+  }
+
+  .hero-img {
+    margin: 30px 0px;
+    height: 300px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .content p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.7;
+  }
+
+  input,
+  .btn-primary {
+    width: 300px;
+    height: 40px;
+    margin: 9px 20px;
+  }
+
+  .get-started {
+    display: block;
+  }
+  img#background-image {
+    height: 6%;
+    margin: 0px -560px;
+  }
+  .product-details h1 {
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .product-details {
+    margin: 0px;
+    padding: 0px;
+  }
+  .product-details p {
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 10px;
+  }
+
+  .fylo-link {
+    margin: 40px 100px;
+  }
+  .fylo-link a {
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .arrow-icon {
+    margin-top: 10px;
+    height: 18px;
+  }
+  .fylo-review {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .fylo-review p {
+    font-size: 13px;
+  }
+  .review {
+    padding: 19px;
+  }
+  .fylo-founder img {
+    width: 35px;
+  }
+  .fylo-founder h4 {
+    font-size: 15px;
+  }
+  .content-img {
+    height: 300px;
+  }
+  .sign-up {
+    padding: 40px !important;
+  }
+
+  .sign-up h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .sign-up p {
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  .sign-up input {
+    width: 280px;
+    height: 35px;
+    margin: 0px 0px;
+  }
+  .sign-up .btn-primary {
+    width: 280px;
+    height: 35px;
+    margin: 0px 0px;
+  }
+  .contact-section {
+    padding: 20px;
+  }
+  .contact-section li {
+    font-size: 14px;
+  }
+  .fylo-logo-white {
+    width: 55%;
+  }
+  .social-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .social-links a {
+    margin: 0px 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+}
