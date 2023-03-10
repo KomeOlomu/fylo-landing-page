@@ -298,7 +298,7 @@ footer .social-links a {
     margin: 0px -560px;
   }
   .product-details h1 {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     line-height: 1.5;
   }
@@ -313,10 +313,10 @@ footer .social-links a {
   }
 
   .fylo-link {
-    margin: 40px 100px;
+    margin: 50px 100px;
   }
   .fylo-link a {
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
   }
   .arrow-icon {
@@ -359,7 +359,7 @@ footer .social-links a {
   }
 
   .sign-up input {
-    width: 350px;
+    width: 300px;
     height: 35px;
   }
   .sign-up .btn-primary {
